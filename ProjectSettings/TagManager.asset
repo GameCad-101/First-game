@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Collectible
+  - Powerup
   layers:
   - Default
   - TransparentFX
@@ -49,6 +51,9 @@ TagManager:
     locked: 0
   - name: foreground
     uniqueID: 2322439307
+    locked: 0
+  - name: Characters
+    uniqueID: 4210596743
     locked: 0
   m_RenderingLayers:
   - Default
