@@ -180,13 +180,10 @@ public class Interactable : MonoBehaviour, IInteractable
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-
     {
         if (!other.CompareTag("Player")) return;
         triggerEntered = true;
         player = other.gameObject;
-
-                
 
         if (requiresKey && other.gameObject.GetComponent<CollectibleManager>().keyCollected)
         {
