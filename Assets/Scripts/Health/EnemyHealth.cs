@@ -6,6 +6,8 @@ using UnityEngine.Events;
 
 public class EnemyHealth : Health
 {
+    public Door door;
+
     [Header("Does this drop something when dead?")][Tooltip("If yes, needs ItemDrop component")]
     public bool dropThings = false;
 
@@ -32,6 +34,10 @@ public class EnemyHealth : Health
             if (currentHealth <= 0)
             {
                 dead = true;
+
+                if (door != null)
+                {door.unlocked = true;
+                }
                 if (GetComponent<Animator>()) GetComponent<Animator>().SetBool("Death", true);
                 if (GetComponent<ShootAllDirection>()) GetComponent<ShootAllDirection>().disablePool();
 

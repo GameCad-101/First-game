@@ -381,6 +381,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Astronaut_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 174
+        width: 2
+        height: 7
+      alignment: 9
+      pivot: {x: 0.4999981, y: 0.4425681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2917e1da7fb46437e8f7e307981e6dd4
+      internalID: -1337145726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronaut_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 180
+        width: 12
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728e9070901504e11a17148a1b350f53
+      internalID: -160397730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -406,6 +450,8 @@ TextureImporter:
       AstronautWalk_04: 21300006
       AstronautWalk_05: 21300008
       AstronautWalk_06: 21300010
+      Astronaut_0: -1337145726
+      Astronaut_1: -160397730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
